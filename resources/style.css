@@ -1,0 +1,72 @@
+/*general style*/
+
+body {
+    font-family: Roboto, sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    padding: 8px;
+    color: black;
+}
+
+/*navigation bar*/
+
+header {
+    width: 100%;
+    position: fixed;
+    background-color: whitesmoke;
+
+}
+
+nav {
+    height: 64px;
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+#logo {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 24px;
+}
+
+#logo img {
+    height: 50px;
+    width: auto;
+}
+
+h3 {
+    font-size: 2rem;
+    padding: 0;
+    margin: 0;
+    opacity: 0.9;
+}
+
+.no-bold {
+    font-weight: normal;
+    opacity: 0.7;
+}
+
+#links {
+    display: inline-flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 24px;
+}
+
+
+
+
+
+
+
+main {
+    padding-top: 64px;
+}

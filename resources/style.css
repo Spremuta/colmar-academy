@@ -14,7 +14,6 @@ main {
 a {
     text-decoration: none;
     padding: 8px;
-    color: black;
 }
 
 /*navigation bar*/
@@ -93,7 +92,7 @@ h3 {
 }
 
 #starter {
-    padding: 0 24px;
+    padding: 0 34px;
     width: 40%;
     display: inline-flex;
     flex-direction: column;
@@ -102,5 +101,27 @@ h3 {
 
 h1 {
     font-size: 4rem;
-    opacity: 0.8;
+    opacity: 0.7;
+    font-weight: bold;
+    padding: 24px 0;
+    margin: 10px 0;
+}
+
+h4 {
+    font-size: 2rem;
+    opacity: 0.7;
+    margin: 10px 0;
+    font-weight: bold;
+    padding: 24px 0;
+}
+
+#button {
+    padding: 10px;
+    background-color: dimgray;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+#button a {
+    color: whitesmoke;
 }

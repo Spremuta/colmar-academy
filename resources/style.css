@@ -253,7 +253,27 @@ p {
 /* footer */
 
 footer {
-    padding: 16px 24px 32px 24px;
     background-color: whitesmoke;
     border-top: 1px solid lightgrey;
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 24px 0;
+}
+
+.mark {
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+}
+.right {
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 24px;
+}
+
+.right h6 {
+    margin: 0 8px;
+    padding: 0;
 }

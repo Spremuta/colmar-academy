@@ -290,11 +290,10 @@ footer {
     padding: 0;
 }
 
-@media only screen and (max-width: 480px) {
+@media (max-width: 767px) {
     
     html {
         font-size: 10px;
-        flex-direction: column;
     }
      /* phone-nav */
 

@@ -1,0 +1,64 @@
+html,body{height:100%; font-family: 'Arvo', sans-serif;}
+
+/*----------------
+General
+----------------*/
+
+.animate{
+	-webkit-transition: all 0.3s ease-out;
+					transition: all 0.3s ease-out;
+}
+
+/*----------------
+Header
+----------------*/
+
+.header {background: white; height: 64px; position: fixed; width: 100%}
+.header__logo{float:left;display: inline-flex;padding:0 24px; font-size: 32px; text-decoration: none; color: black; opacity: 0.9; align-items: center;}
+.header__logo__img{display: block; padding: 0 3px; height: 60px; width: auto;}
+.header__logo__decoration{opacity: 0.7;}
+.header__logo :hover {opacity: 1}
+.header__menu{float:right; margin: 0; padding: 0;}
+.header__menu__item{display: inline-block;}
+.header__menu__item a {display: block; color: black; opacity: 0.9; padding: 22px 16px; text-decoration: none;}
+.header__menu__item a:hover {background-color: slategray}
+.header__icon-bar {display:inline-flex; display: none; height: 64px; width: 100%; padding: 0; margin: 0;}
+.header__icon-bar__item {display: inline-flex}
+.header__icon-bar__item a {display: block; opacity: 0.9; padding:18px;}
+
+
+
+
+
+/*----------------
+Phone-View
+----------------*/
+
+@media (max-width: 767px) {
+    /*header*/
+    .header__logo, .header__menu {display: none;}
+    .header__icon-bar {display: inline-flex; position: fixed; z-index: 100; justify-content: space-around; align-items: center;}
+
+
+}
+
+/* clearfix */
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}

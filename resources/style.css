@@ -67,6 +67,20 @@ Banner
 .banner__infos__info__text h3 {font-size: 25px;}
 .banner__infos__info__text a {text-decoration: none; color: steelblue}
 
+/*----------------
+learning / courses
+----------------*/
+
+.learning {background-color:lightgrey; text-align: center; padding: 32px 72px;}
+.learning h2 {margin: 0; padding-bottom: 32px; font-size: 36px; opacity: 0.85;}
+.learning__courses {display: inline-flex; width: 100%; flex-wrap: wrap; justify-content: space-between;}
+.learning__courses__course {width: 30%; min-width: 280px; display: block; background-color: snow; text-align: left; margin-bottom: 32px;}
+.learning__courses__course__image {width: 100%; height: auto;}
+.learning__courses__course__image img {width: 100%; height: auto;}
+.learning__courses__course__text {padding: 16px;}
+.learning__courses__course__text h3 {margin: 0;}
+.learning__courses__course__text h3, p {padding-bottom: 16px; line-height: 2;}
+.learning__courses__course__phone-view {display: none;}
 
 
 
@@ -99,6 +113,17 @@ Phone-View
 	.banner__infos__info__phone-image img {width: 100%; height: auto;}
 	.banner__infos__info__text {width: 100%;}
 	.banner__infos__info__text h3, p {margin: 15px 0;}
+
+	/*learning / courses*/
+
+	.learning {padding: 32px 16px; background-color: whitesmoke; border-bottom: 2px solid lightgrey;}
+	.learning h2 {font-size: 30px; padding-bottom: 32px;}
+	.learning__courses {flex-direction: column;}
+	.learning__courses__course {width: 100%; background-color: lightgrey; padding: 24px 16px; margin-bottom: 8px;}
+	.learning__courses__course__image {display: none;}
+	.learning__courses__course__text {display: none;}
+	.learning__courses__course__phone-view {display: block;}
+	.learning__courses__course__phone-view h3 {margin: 0;}
 
 
 }

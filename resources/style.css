@@ -37,7 +37,7 @@ Cover
 .cover__text h1, h3 {opacity: 0.9; margin: 20px 0;}
 .cover__text h1 {font-size: 40px;}
 .cover__text h3 {margin-bottom: 40px;}
-.cover__text a {width: 100%; color: antiquewhite; text-align: center; padding: 3% 20%; background-color: lightslategrey; text-decoration: none;}
+.cover__text a {color: antiquewhite; background-color: lightslategrey; text-align: center; padding: 15px 0; text-decoration: none;}
 .cover__text a:hover {background-color: darkslategray;}
 
 /*----------------

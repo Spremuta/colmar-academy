@@ -31,14 +31,14 @@ Cover
 ----------------*/
 
 .cover {background-color: lightgrey; display: inline-flex; width: 100%; margin-top: 64px;}
-.cover__image {width: 60%; display: block; float: left;}
-.cover__image img {width: 90%; height: auto; margin: 32px 24px;}
-.cover__content {width: 40%; height: 100%; margin: auto;}
-.cover__content__copy h1, h3 {opacity: 0.9; margin: 10% 5% 10% 0;}
-.cover__content__copy h1 {font-size: 38px;}
-.cover__content__copy h3 {margin-bottom: 40px;}
-.cover__content__copy a {width: 100%; color: antiquewhite; text-align: center; padding: 3% 20%; background-color: lightslategrey; text-decoration: none;}
-.cover__content__copy a:hover {background-color: darkslategray;}
+.cover__image {width: 60%; height: auto; padding: 32px 24px;}
+.cover__image img {width: 100%; height: auto;}
+.cover__text {width: 40%; height: auto; padding-right: 24px; display: inline-flex; flex-direction: column; justify-content: center;}
+.cover__text h1, h3 {opacity: 0.9; margin: 20px 0;}
+.cover__text h1 {font-size: 40px;}
+.cover__text h3 {margin-bottom: 40px;}
+.cover__text a {width: 100%; color: antiquewhite; text-align: center; padding: 3% 20%; background-color: lightslategrey; text-decoration: none;}
+.cover__text a:hover {background-color: darkslategray;}
 
 /*----------------
 Banner
@@ -81,14 +81,12 @@ Phone-View
 	.header__icon-bar {display: inline-flex; position: fixed; z-index: 100; justify-content: space-around; align-items: center;}
 	
 	/*cover*/
-	.cover {flex-direction: column; height: 100%;}
-	.cover__image {width: 100%; height: auto;}
+	.cover {flex-direction: column;}
+	.cover__image {width: 100%; height: auto; padding: 0;}
 	.cover__image img {width: 100%; height: auto; margin: 0;}
-	.cover__content {height: 100%; width: 100%;}
-	.cover__content__copy {text-align: center; height: 100%;}
-	.cover__content__copy h1, h3 {text-align: left; margin: 10% 5%;}
-	.cover__content__copy h1 {font-size: 28px;}
-	.cover__content__copy h3 {font-size: 18px;}
+	.cover__text {width: 100%; padding: 32px 16px;}
+	.cover__text h1 {font-size: 28px; margin: 10px 0;}
+	.cover__text h3 {font-size: 18px; margin: 20px 0;}
 
 	/*banner*/
 

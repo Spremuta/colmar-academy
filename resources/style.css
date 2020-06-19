@@ -52,13 +52,14 @@ Banner
 .banner__main-info__media img {width: 100%; height: auto;}
 .banner__main-info__text h2 {font-size: 30px;}
 .banner__main-info__text h2, p {margin-bottom: 24px; opacity: 0.85;}
-.banner__main-info__text__caption {margin: 32px 0;}
+.banner__main-info__text__caption {margin: 32px 0 8px 0;}
 
 /*information-cards*/
 
 .banner__infos {width: 40%; height: 100%; display: block;}
 .banner__infos__info {width: 100%; display: inline-flex; padding: 16px; border-bottom: 2px solid lightgrey;}
 .banner__infos__info:hover {background-color: lightgrey;}
+.banner__infos__info__phone-image {display: none;}
 .banner__infos__info__image {width: 35%; height:auto}
 .banner__infos__info__image img {width: 100%; height: auto;}
 .banner__infos__info__text {width: 65%; height: auto; padding: 16px; display: inline-flex; flex-direction: column; justify-content: space-around;}
@@ -86,6 +87,20 @@ Phone-View
 	.cover__content {height: 100%; width: 100%;}
 	.cover__content__copy {text-align: center;}
 	.cover__content__copy h1, h3 {text-align: left; margin: 10% 5%;}
+	.cover__content__copy h1 {font-size: 28px;}
+	.cover__content__copy h3 {font-size: 18px;}
+
+	/*banner*/
+
+	.banner__main-info {display: none;}
+	.banner__infos {width: 100%;}
+	.banner__infos__info {flex-direction: column;}
+	.banner__infos__info:hover {background-color: whitesmoke;}
+	.banner__infos__info__image {display:none;}
+	.banner__infos__info__phone-image {display: block;}
+	.banner__infos__info__phone-image img {width: 100%; height: auto;}
+	.banner__infos__info__text {width: 100%;}
+	.banner__infos__info__text h3, p {margin: 15px 0;}
 
 
 }

@@ -34,7 +34,7 @@ Cover
 .cover__image {width: 60%; height: auto; padding: 32px 24px;}
 .cover__image img {width: 100%; height: auto;}
 .cover__text {width: 40%; height: auto; padding-right: 24px; display: inline-flex; flex-direction: column; justify-content: center;}
-.cover__text h1, h3 {opacity: 0.9; margin: 20px 0;}
+.cover__text h1, .cover__text h3 {opacity: 0.9; margin: 20px 0;}
 .cover__text h1 {font-size: 40px;}
 .cover__text h3 {margin-bottom: 40px;}
 .cover__text a {color: antiquewhite; background-color: lightslategrey; text-align: center; padding: 15px 0; text-decoration: none;}
@@ -47,12 +47,12 @@ Banner
 .banner {background-color: whitesmoke; display: inline-flex; width: 100%}
 
 /*main-information*/
-.banner__main-info {width: 60%; height: 100%; display: block; padding: 32px 24px; border-right: 2px solid lightgrey;}
+.banner__main-info {width: 60%; height: 100%; display: block; padding: 32px 24px; border-right: 1px solid lightgrey;}
 .banner__main-info__media {margin-bottom: 32px;}
 .banner__main-info__media img {width: 100%; height: auto;}
 .banner__main-info__media video {width: 100%; height: auto;}
 .banner__main-info__text h2 {font-size: 30px;}
-.banner__main-info__text h2, p {margin-bottom: 24px; opacity: 0.85;}
+.banner__main-info__text h2, .banner__main-info__text p {margin-bottom: 24px; opacity: 0.85;}
 .banner__main-info__text__caption {margin: 32px 0 8px 0;}
 
 #thesis {font-size: 36px; text-align: center; opacity: 0.85; background-color: whitesmoke; margin: 0; padding: 32px;}
@@ -60,13 +60,13 @@ Banner
 /*information-cards*/
 
 .banner__infos {width: 40%; height: 100%; display: block;}
-.banner__infos__info {width: 100%; display: inline-flex; padding: 16px; border-bottom: 2px solid lightgrey;}
+.banner__infos__info {width: 100%; display: inline-flex; padding: 16px; border-bottom: 1px solid lightgrey;}
 .banner__infos__info:hover {background-color: lightgrey;}
 .banner__infos__info__phone-image {display: none;}
 .banner__infos__info__image {width: 35%; height:auto}
 .banner__infos__info__image img {width: 100%; height: auto;}
 .banner__infos__info__text {width: 65%; height: auto; padding: 16px; display: inline-flex; flex-direction: column; justify-content: space-around;}
-.banner__infos__info__text h3, p {margin: 0; opacity: 0.85;}
+.banner__infos__info__text h3, .banner__infos__info__text p {margin: 0; opacity: 0.85;}
 .banner__infos__info__text h3 {font-size: 25px;}
 .banner__infos__info__text a {text-decoration: none; color: steelblue}
 
@@ -83,8 +83,17 @@ learning / courses
 .learning__courses__course__image img {width: 100%; height: auto;}
 .learning__courses__course__text {padding: 16px;}
 .learning__courses__course__text h3 {margin: 0;}
-.learning__courses__course__text h3, p {padding-bottom: 16px; line-height: 2;}
+.learning__courses__course__text h3, .learning__courses__course__text p {padding-bottom: 16px; line-height: 2;}
 .learning__courses__course__phone-view {display: none;}
+
+/*----------------
+footer
+----------------*/
+
+.footer {background-color: whitesmoke; display: inline-flex; width: 100%; padding: 16px 24px; border-top: 1px solid lightgrey; opacity: 0.85; justify-content: space-between;}
+.footer__privacy {display: inline-flex; list-style: none;}
+.footer__privacy a {text-decoration: none; color: black; padding: 0 7px;}
+
 
 
 
@@ -116,7 +125,7 @@ Phone-View
 	.banner__infos__info__phone-image {display: block;}
 	.banner__infos__info__phone-image img {width: 100%; height: auto;}
 	.banner__infos__info__text {width: 100%;}
-	.banner__infos__info__text h3, p {margin: 15px 0;}
+	.banner__infos__info__text h3, .banner__infos__info__text p {margin: 15px 0;}
 	.no-phone-view {display: none;}
 	.phone-view {display: block; width: 100%; padding: 0 0 24px 0;}
 	.phone-view__media {width: 100%;}
@@ -133,7 +142,10 @@ Phone-View
 	.learning__courses__course__phone-view {display: block;}
 	.learning__courses__course__phone-view h3 {margin: 0;}
 
+	/*footer*/
 
+	.footer__copyright {font-size: 14px;}
+	.footer__privacy {display: none;}
 }
 
 /*----------------
